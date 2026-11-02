@@ -5,6 +5,7 @@
 
 This project demonstrates the deployment of a responsive static portfolio website using Amazon S3 and Amazon CloudFront.
 
+
 ## Architecture Diagram
 
 ```mermaid
@@ -17,9 +18,9 @@ flowchart TD
     F --> G["index.html"]
     F --> H["style.css"]
     F --> I["script.js"]
-
     J["Origin Access Control (OAC)"] -.-> F
 ```
+
 
 ## AWS Components
 
