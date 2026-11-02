@@ -112,18 +112,38 @@ These headers demonstrate that CloudFront is serving cached website content thro
 10. Tested HTTPS and DNS resolution.
 11. Verified CloudFront CDN caching.
 
+
 ## Project Structure
 
 ```text
-veda-static-website/
+veda-static-website-deployment/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 ├── README.md
 ├── ARCHITECTURE.md
+│
 └── screenshots/
+    ├── README.md
+    ├── 01-portfolio-homepage.png
+    ├── 02-portfolio-about-us.png
+    ├── 03-portfolio-skills.png
+    ├── 04-portfolio-projects.png
+    ├── 05-portfolio-contact.png
+    ├── 06-mobile-responsive.png
+    ├── 07-s3-bucket-created.png
+    ├── 08-s3-website-files-uploaded.png
+    ├── 09-cloudfront-distribution-created.png
+    ├── 10-cloudfront-default-root-object.png
+    ├── 11-cloudfront-https-redirection.png
+    ├── 12-aws-cloudfront-live-website.png
+    ├── 13-https-certificate-valid.png
+    ├── 14-cloudfront-cache-age-etag.png
+    ├── 15-cloudfront-cdn-cache-hit.png
+    └── 16-cloudfront-dns-resolution.png
 ```
+
 
 ## Learning Outcomes
 
