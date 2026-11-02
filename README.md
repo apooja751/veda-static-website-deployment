@@ -115,7 +115,7 @@ These headers demonstrate that CloudFront is serving cached website content thro
 ## Project Structure
 
 ```text
-veda-task33-static-website/
+veda-static-website/
 │
 ├── index.html
 ├── style.css
